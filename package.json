@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mruona/RolloProjekti#readme",
   "dependencies": {
-    "express": "^4.13.1"
+    "express": "^4.13.1",
+    "jade": "^1.11.0"
   }
 }

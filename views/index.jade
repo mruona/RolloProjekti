@@ -1,0 +1,15 @@
+extends layout
+block content
+    p="Tässä kaikki tiedot:"
+    ul
+        each tyyppi in henkilot
+            li= tyyppi.user_name + "," + tyyppi.email
+    table
+        th="Nimi"
+        th="Osoite"
+        th="Email"
+        each tyyppi in henkilot
+            tr
+                td=tyyppi.user_name
+                td=tyyppi.address
+                td=tyyppi.email
